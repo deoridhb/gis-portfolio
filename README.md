@@ -126,7 +126,8 @@ Service area polygons
 
 Skills
 
-# Network dataset creation, route optimization, service area analysis, spatial decision support Georeferencing & Digitization of Area of Interest (QGIS)
+Network dataset creation, route optimization, service area analysis, spatial decision support 
+# Georeferencing & Digitization of Area of Interest (QGIS)
 
 Objective
 Georeference a Survey of India toposheet and digitize features within the area of interest.
@@ -281,3 +282,45 @@ Confirms highly dynamic nature of the Brahmaputra river channel
 
 Skills
 LULC change detection, river morphology analysis, erosion–accretion mapping, GIS-based spatial analysis
+
+# Rooftop Solar Suitability Analysis using GeoAI & Photogrammetry
+
+Objective
+Assess rooftop suitability for solar panel installation across multiple Indian cities using geospatial analysis, photogrammetry, and AI.
+
+Data & Method
+
+Drone survey data processed using Agisoft Metashape and Skylark Drones’ Spectra
+
+Generated DSM, DTM, orthomosaics, and point clouds
+
+Automated rooftop detection using YOLO (GeoAI)
+
+Roof slope and aspect classification using DSM
+
+Python-based solar radiation modeling to estimate Yearly Solar Radiation (YSR)
+
+HDF-based data management for large-scale analysis
+
+Tools
+Agisoft Metashape, Spectra (Skylark Drones), Python, YOLO, GIS, GDAL, HDF5
+
+Output
+<img width="1069" height="611" alt="image" src="https://github.com/user-attachments/assets/8370d7ba-163d-4760-a376-d7c2d99287a1" />
+<img width="1067" height="611" alt="image" src="https://github.com/user-attachments/assets/64d4fce0-a7b3-4f33-b0e9-c782a23592a3" />
+
+Rooftop suitability maps (slope, orientation, radiation)
+
+City-wise annual solar potential estimates
+<img width="1075" height="796" alt="image" src="https://github.com/user-attachments/assets/b902e23a-cd09-4cd2-8536-f42bf6d403ec" />
+
+Digitized building footprints for solar planning
+
+Impact
+
+Supports India’s PM Surya Ghar: Muft Bijli Yojana
+
+Enables scalable rooftop solar planning using GeoAI
+
+Skills
+Photogrammetry, DSM/DTM generation, GeoAI (YOLO), solar radiation modeling, large-scale geospatial analysis
